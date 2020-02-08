@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://diankao.github.io/blog/</id>
     <title>Gridea</title>
-    <updated>2020-02-08T15:46:45.920Z</updated>
+    <updated>2020-02-08T15:56:27.257Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://diankao.github.io/blog/"/>
     <link rel="self" href="https://diankao.github.io/blog/atom.xml"/>
@@ -16,8 +16,36 @@
         <link href="https://diankao.github.io/blog/post/test">
         </link>
         <updated>2020-02-08T15:30:09.000Z</updated>
-        <content type="html"><![CDATA[<p>####test markdown</p>
-<pre><code></code></pre>
+        <content type="html"><![CDATA[<p>#标题</p>
+<blockquote>
+<p>这是引用的内容</p>
+</blockquote>
+<pre><code>---------
+![](https://diankao.github.io/blog//post-images/1581177188533.jpg)
+[洛谷](http://luogu.org)
+-列表
+-列表
+1.列表
+2.李彪
+   1.列表
+'''import&lt;iostream&gt;
+using namespace std;
+int main()
+{
+    int s;
+    cin&gt;&gt;s;
+    }   
+```
+flow
+st=&gt;start: 开始
+op=&gt;operation: My Operation
+cond=&gt;condition: Yes or No?
+e=&gt;end
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+&amp;
+</code></pre>
 ]]></content>
     </entry>
     <entry>
