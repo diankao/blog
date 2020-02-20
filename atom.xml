@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://diankao.github.io/blog/</id>
     <title>Gridea</title>
-    <updated>2020-02-20T13:00:30.842Z</updated>
+    <updated>2020-02-20T13:18:33.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://diankao.github.io/blog/"/>
     <link rel="self" href="https://diankao.github.io/blog/atom.xml"/>
@@ -10,6 +10,97 @@
     <logo>https://diankao.github.io/blog/images/avatar.png</logo>
     <icon>https://diankao.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[搞事策划案]]></title>
+        <id>https://diankao.github.io/blog/post/gao-shi-ce-hua-an</id>
+        <link href="https://diankao.github.io/blog/post/gao-shi-ce-hua-an">
+        </link>
+        <updated>2020-02-20T13:10:33.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="编程游戏鉴赏讲座">编程游戏鉴赏讲座</h2>
+<p>[codinggame]（www.codingame.com）<br>
+[极客战记（中国版CodeCombat）网址]&lt;codecombat.163.com&gt;<br>
+<a href="https://store.steampowered.com/app/621000/__Exception/">异常</a><br>
+<a href="www.git-game.com">gitgame</a></p>
+<p><s>by diankao</s></p>
+<ul>
+<li>
+<p>活动器材<br>
++自备 装载steam学习平台的电脑</p>
+</li>
+<li>
+<p>活动场所</p>
+<ul>
+<li>有多媒体设备的教室</li>
+</ul>
+</li>
+<li>
+<p>活动时间</p>
+<ul>
+<li>总共约一小时左右</li>
+</ul>
+</li>
+<li>
+<p>活动经费</p>
+<ul>
+<li>steam上购买Exception以供学习的费用</li>
+</ul>
+</li>
+<li>
+<p>活动目的</p>
+<ul>
+<li>培养编程兴趣</li>
+<li>利用gitgame学习git应用</li>
+</ul>
+</li>
+<li>
+<p>活动步骤<br>
++</p>
+</li>
+<li>
+<p>总结<br>
++</p>
+<ul>
+<li>我编不下去了，continue；</li>
+</ul>
+</li>
+<li>
+<p>人员调配</p>
+<ul>
+<li>
+<p>讲师：</p>
+</li>
+<li>
+<p>借教室:</p>
+</li>
+<li>
+<p>签到人员:</p>
+</li>
+<li>
+<p>检查设备:</p>
+</li>
+<li>
+<p>主持人:</p>
+</li>
+<li>
+<p>写新闻稿:</p>
+</li>
+<li>
+<p>写活动总结:</p>
+</li>
+<li>
+<p>拿签到表:</p>
+</li>
+<li>
+<p>联系活动部拿海报：</p>
+</li>
+<li>
+<p>引导人员：</p>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[苏州大学计算机科学与技术学院学生科技协会科研部活动策划案]]></title>
         <id>https://diankao.github.io/blog/post/su-zhou-da-xue-ji-suan-ji-ke-xue-yu-ji-zhu-xue-yuan-xue-sheng-ke-ji-xie-hui-ke-yan-bu-huo-dong-ce-hua-an</id>
