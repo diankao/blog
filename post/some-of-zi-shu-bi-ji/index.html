@@ -2,24 +2,22 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Hello Gridea | Gridea</title>
+<title>some of紫书笔记 | Gridea</title>
 <link rel="shortcut icon" href="https://diankao.github.io/blog//favicon.ico?v=1582203514511">
 <link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://diankao.github.io/blog//styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Hello Gridea | Gridea - Atom Feed" href="https://diankao.github.io/blog//atom.xml">
+<link rel="alternate" type="application/atom+xml" title="some of紫书笔记 | Gridea - Atom Feed" href="https://diankao.github.io/blog//atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+    <meta name="description" content="例题5-5 UVa12096
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo..." />
-    <meta name="keywords" content="Gridea" />
+长且不重复的指令只读第一个字母
+将难以存储的实体哈希化,分配一个ID
+typedef 是个好东西
+set_union(x1.begin(), x1.end(), x2.begin(), x2.end(), i..." />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
@@ -81,54 +79,75 @@ Gridea 主页
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              Hello Gridea
+              some of紫书笔记
             </h2>
             <div class="post-info">
               <span>
-                2018-12-12
+                2020-02-15
               </span>
               <span>
                 2 min read
               </span>
               
-                <a href="https://diankao.github.io/blog/tag/pM7PuYxD0" class="post-tag">
-                  # Gridea
-                </a>
-              
             </div>
-            
-              <img class="post-feature-image" src="https://diankao.github.io/blog//post-images/hello-gridea.png" alt="">
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+                <h3 id="例题5-5-uva12096"><strong>例题5-5 UVa12096</strong></h3>
+<ol>
+<li>长且不重复的指令只读第一个字母</li>
+<li>将难以存储的实体哈希化,分配一个ID</li>
+<li>typedef 是个好东西</li>
+<li>set_union(x1.begin(), x1.end(), x2.begin(), x2.end(), inserter(x, x.end()))<br>
+使用宏定义#define ALL(x) x.begin(),x.end()和定义#define INS(x) inserter(x,x.begin())可以把一堆参数简写为set_union(ALL(x),INS(x));</li>
+</ol>
+<h3 id="例题5-7-uva136"><strong>例题5-7 Uva136</strong></h3>
+<ol>
+<li>优先队列是排序不去重的,如果要去重,和队列同时写个set,对每个入队元素检查set里的count</li>
+<li>prioritry_queue&lt;int, vector<int>, greater<int> &gt;pq;中两个&gt;&gt;不要连在一起,会使得编译器误认为是&gt;&gt;运算符</li>
+<li>优先队列最先出队列的元素是队列中优先级最高的元素(top()取队首元素),默认为大数优先
+<ol>
+<li>prioritry_queue&lt;int, vector<int>, greater<int> &gt;pq ,小数优先</li>
+<li>prioritry_queue&lt;int, vector<int>, cmp&gt; &gt;pq; // 然后重载'()'运算符<br>
+struct cmp{<br>
+bool operactor()(const int a,const int b) const{<br>
+return a%10&lt;b%10;//如果a的优先级比b小,则返回ture<br>
+}<br>
+}</li>
+</ol>
+</li>
+<li>push(),pop(),top()</li>
+</ol>
+<h3 id="随机数发生器"><strong>随机数发生器</strong></h3>
+<ol>
+<li>rand()不仅是伪随机数,而且生成范围是[0,RAND_MAX],而RAND_MAX 一般为2^15-1;</li>
+<li>虽然可以执行srand(time(NULL)),但是由于time的精度是秒,所以会导致一秒钟内多次执行的程序随机出同样的结果</li>
+</ol>
+<h3 id="引用传参方式可以减少指针的应用"><strong>引用传参方式(&amp;)可以减少指针的应用</strong></h3>
+<h3 id="测试程序"><strong>测试程序</strong></h3>
+<ol>
+<li>测试程序中常用assert(表达式)当表达式为假时强行终止程序,并给出错误提示</li>
+<li>abort()<br>
+立即终止当前进程，产生异常程序终止<br>
+进程终止时不会销毁任何对象</li>
+<li>exit<br>
+<img src="https://img-blog.csdn.net/20180608111123895?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3p0X3hjeWs=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="exit" loading="lazy"></li>
+</ol>
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
+<li>
+<ul>
+<li><a href="#%E4%BE%8B%E9%A2%985-5-uva12096"><strong>例题5-5 UVa12096</strong></a></li>
+<li><a href="#%E4%BE%8B%E9%A2%985-7-uva136"><strong>例题5-7 Uva136</strong></a></li>
+<li><a href="#%E9%9A%8F%E6%9C%BA%E6%95%B0%E5%8F%91%E7%94%9F%E5%99%A8"><strong>随机数发生器</strong></a></li>
+<li><a href="#%E5%BC%95%E7%94%A8%E4%BC%A0%E5%8F%82%E6%96%B9%E5%BC%8F%E5%8F%AF%E4%BB%A5%E5%87%8F%E5%B0%91%E6%8C%87%E9%92%88%E7%9A%84%E5%BA%94%E7%94%A8"><strong>引用传参方式(&amp;)可以减少指针的应用</strong></a></li>
+<li><a href="#%E6%B5%8B%E8%AF%95%E7%A8%8B%E5%BA%8F"><strong>测试程序</strong></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -138,6 +157,15 @@ Gridea 主页
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://diankao.github.io/blog/post/test">
+              <h3 class="post-title">
+                test
+              </h3>
+            </a>
+          </div>
         
 
         
